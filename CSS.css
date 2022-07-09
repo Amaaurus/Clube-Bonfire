@@ -1,0 +1,98 @@
+body{
+    color: #fff;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+h1{
+    color: #000;
+}
+
+.MENU{
+    background-color: rgb(161, 0, 0);
+}
+
+.LOGO{
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+hr{
+    color: rgb(rgb(59, 56, 71), green, blue);
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 0%;
+    padding-bottom: 1%;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    margin-top: 3%;
+    padding-bottom: 1%;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+h3{
+    color: #000;
+    text-align: center;
+    margin-top: 3%;
+    padding-bottom: 1%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+h4{
+    color: #000;
+    text-align: center;
+    margin-top: 3%;
+    padding-bottom: 0%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.BOTÃO{
+    margin-top: 0%;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: none;
+    font-family: sans-serif;
+}
+
+.BOTÃO:hover{
+    background-color: rgb(161, 0, 0);
+}
+
+.CAIXA_H{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.FOTO{
+    background-color: rgb(228, 228, 228);
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.RODAPE{
+    background-color: rgb(161, 0, 0);
+    padding-bottom: 20%;
+}
+
