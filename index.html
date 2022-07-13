@@ -8,17 +8,18 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
       rel="stylesheet"
     />
+    <script src="script/script.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="I1.png" />
+    <link rel="icon" type="image/x-icon" href="assets/I1.png" />
     <title>Clube Bonfire</title>
   </head>
 
-  <body>
+  <body onload="slide1()">
     <div class="Container">
       <header id="header">
-        <img id="logo" src="I1.png" width="5%" />
+        <img id="logo" src="assets/I1.png" width="5%" />
         <h1>Clube Bonfire</h1>
-        <img id="logo" src="I1.png" width="5%" />
+        <img id="logo" src="assets/I1.png" width="5%" />
       </header>
       <main>
         <section id="system">
@@ -29,58 +30,43 @@
           </header>
           <div class="cards">
             <div id="card">
-              <img src="I3.png" title="Dungeon in Dragons" />
-              <div class="navigation">
-                <label class="bar" for="slide1"></label>
-                <label class="bar" for="slide2"></label>
-                <label class="bar" for="slide3"></label>
-              </div>
-              <div class="circulos">
-                <input type="radio" name="slide" id="slide1">
-                <input type="radio" name="slide" id="slide2">
-                <input type="radio" name="slide" id="slide3">
-              </div>
+              <img src="assets/I3.png" id="slider" title="Dungeon in Dragons" />
               <p>Dungeons & Dragons</p>
               <button class="Button"><a href="D&D.html">Selecionar</a></button>
             </div>
             <div id="card">
-              <img src="I4.png" title="Portas, Portas e Mais Portas"/>
-              <div class="navigation">
-                <label class="bar" for="slide4"></label>
-                <label class="bar" for="slide5"></label>
-                <label class="bar" for="slide6"></label>
-              </div>
-              <div class="circulos">
-                <input type="radio" name="slide" id="slide4">
-                <input type="radio" name="slide" id="slide5">
-                <input type="radio" name="slide" id="slide6">
-              </div>
+              <img
+                src="assets/I4.png"
+                id="slider"
+                title="Portas, Portas e Mais Portas"
+              />
               <p>Portas, Portas & Mais Portas</p>
               <button class="Button">
                 <a href="PP&+P.html">Selecionar</a>
               </button>
             </div>
             <div id="card">
-              <img src="I2.png" title="Sistema de Alexssandro" />
-              <div class="navigation">
-                <label class="bar" for="slide7"></label>
-                <label class="bar" for="slide8"></label>
-                <label class="bar" for="slide9"></label>
-              </div>
-              <div class="circulos">
-                <input type="radio" name="slide" id="slide7">
-                <input type="radio" name="slide" id="slide8">
-                <input type="radio" name="slide" id="slide9">
-              </div>
+              <img
+                src="assets/I2.png"
+                id="slider"
+                title="Sistema de Alexsandro"
+              />
               <p>Sistema de Alexssandro</p>
               <button class="Button"><a href="D&D.html">Selecionar</a></button>
             </div>
           </div>
-          <hr id="hr"/>
+          <hr id="hr" />
         </section>
       </main>
-      <p id="rodape">Site idealizado e criado por <a id="link" href="https://github.com/Alexsandro-ms">Alexssandro Martins</a> e <a id="link" href="https://www.instagram.com/amaaurus/">Filipe Amauri</a>.</p>
-      
+      <p id="rodape">
+        Site idealizado e criado por
+        <a id="link" href="https://github.com/Alexsandro-ms"
+          >Alexssandro Martins</a
+        >
+        e
+        <a id="link" href="https://www.instagram.com/amaaurus/">Filipe Amauri</a
+        >.
+      </p>
     </div>
   </body>
 </html>
