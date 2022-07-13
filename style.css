@@ -178,10 +178,10 @@ input {
 #rodape {
   color: white;
   text-align: center;
-  height: 250px;
   background-color: #a10000;
-  margin-top: 50px;
-  padding-top: 200px;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #link {
