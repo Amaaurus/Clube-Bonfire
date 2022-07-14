@@ -18,6 +18,9 @@ body {
 #logo {
   margin-right: 2%;
   margin-left: 2%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 #header {
@@ -28,7 +31,7 @@ body {
   justify-content: center;
 }
 
-#header > h1 {
+#header > p {
   text-align: center;
   color: white;
   text-transform: uppercase;
@@ -119,7 +122,7 @@ body {
 }
 
 #subtitle {
-  color: rgb(255, 103, 103);
+  color: rgb(255, 154, 71);
   font-family: "Raleway", sans-serif;
   font-size: 10pt;
   margin-top: 10px;
@@ -158,7 +161,7 @@ input {
   padding: 10px 25px;
   text-transform: uppercase;
   font-weight: bolder;
-  background-color: rgb(83, 0, 0);
+  background-color: #ff9100;
   color: white;
   border: none;
   border-radius: 5px;
@@ -186,11 +189,11 @@ input {
 
 #link {
   text-decoration: none;
-  color: rgb(255, 103, 103);
+  color: rgb(255, 154, 71);
 }
 
 #link:hover {
-  color: #460000;
+  color: rgb(255, 217, 0);
   transition: 0.6s;
 }
 
